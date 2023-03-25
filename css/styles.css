@@ -996,13 +996,9 @@ address{
 /*=========================FOOTER============================*/
 @media screen and (min-width:768px){
 
-    .footer-section{
-        padding-left: 108px;
-    }
-
+   
 .mobile-futer-first-row {
-    display: flex;
-    margin-bottom: 72px;
+    display: flex;   
 
 }
 
@@ -1012,5 +1008,46 @@ address{
 .modal-form-subscribe-wrapper {
     display: flex;
     gap: 24px;
+}
+.modal-form-subscribe{
+    padding-left: 80px;
+}
+.modal-form-subscribe-title{
+    text-align: left;
+}
+.modal-form-subscribe-field{
+    justify-content: left;
+}
+.modal-form-subscribe-input{
+    margin-bottom: 0;
+}
+.modal-form-subscribe-btn{
+    margin-bottom: 0;
+}
+}
+
+@media screen and (min-width:1200px){
+.footer-first-column{
+    margin-left: 0;
+}
+
+.footer-section{
+    display: flex;
+}
+.social-media-block{
+    text-align: left;
+    margin: 0;
+}
+.footer-container {
+    display: flex;
+
+}
+
+.footer-first-column {
+    margin-right: 120px;
+}
+.modal-form-subscribe {
+    margin-left: auto;
+    margin-right: 0;
 }
 }
