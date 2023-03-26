@@ -259,7 +259,7 @@ address{
     
 
 }
-.social-list{
+.social-list-mobile{
     display: flex;
     justify-content: space-between;
     padding-right: 60px;
@@ -991,7 +991,7 @@ address{
      border: 1px solid #8D8D99;
      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
      border-radius: 4px;
-     max-width: 398px;
+     width: 100%;
      height: 40px;
      background-color: transparent;
      padding-left: 16px;
@@ -1056,6 +1056,9 @@ address{
  .modal-form-subscribe-icon {
      margin-left: 16px;
  }
+ .modal-form-subscribe-wrapper {
+     width: 100%;
+ }
 
  
 /*=========================FOOTER============================*/
@@ -1096,9 +1099,11 @@ address{
 }
 .modal-form-subscribe-input{
     margin-bottom: 0;
+    width:264px;
 }
 .modal-form-subscribe-btn{
     margin-bottom: 0;
+    margin-left: 0;
 }
 }
 
@@ -1113,6 +1118,7 @@ address{
 
     .footer-container {
         display: flex;
+        padding-left: 0;
 
     }
 
