@@ -842,10 +842,7 @@ address{
         column-gap: 24px;
         margin-left: auto;
         margin-right: auto;
-    }
-    .container
-    
-}
+    }  
 @media screen and (min-width:1200px){
 .customers-list {
     min-width: 1128px;
@@ -1562,4 +1559,5 @@ address{
 .portfolio-link:focus .overlay {
 
     transform: translate(0, 0);
+}
 }
