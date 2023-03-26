@@ -382,6 +382,11 @@ address{
     .menu{
         margin-left: 76px;
     }
+        .social-list-item-footer:not(:last-child) {
+    
+            margin-right: 16px;
+    
+        }
 
     .contacts{
         display: flex;
@@ -751,11 +756,7 @@ address{
     
 }
 @media screen and (min-width:1200px){
-    .container:{
-        width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+    
     .our-team-wrapper {              
     display: flex;
         flex-wrap: wrap;
