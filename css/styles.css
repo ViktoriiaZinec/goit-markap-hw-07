@@ -69,10 +69,6 @@ body{
 
 /*===========================Body style=================================*/
 
-
-
-
-
 @media screen and (min-width:480px){
     .container{
     
@@ -166,18 +162,11 @@ address{
 .mobile-menu.is-open{
     transform: translateX(0);
 }
-
-
-
-
-
 .mobile-menu-list{
    
     min-height: calc(100vh - 234px);
     
 }
-
-
 .mobile-menu-close-btn{
     display: flex;
     justify-content: center;
@@ -219,9 +208,7 @@ address{
   color: var(--accent-color);
 
   }
-  .mobile-menu-footer{
-
-  }
+ 
 
   .mobile-menu-tel{
     
@@ -288,9 +275,6 @@ address{
 }
 
 /*=======================MENU FOR TABLETS====================*/
-
-
-
 
 @media screen and (min-width:768px){
     .menu{
@@ -524,14 +508,6 @@ address{
 
            
 }
-
-
-
-
-
-
-
-
 /**=======================HERO==============================*/   
 /*======================FEATURES=============================*/
 .features-wrapper{
@@ -569,8 +545,6 @@ address{
         justify-content: space-between;
         flex-wrap: wrap;
         row-gap: 24px;
-        
-       
         
      }
     .features-card{
@@ -644,9 +618,6 @@ address{
         }
 
 }
-
-
-
 /*=========================/FEATURES=================================*/
 
 .explanations-wrapper{
@@ -782,24 +753,24 @@ address{
     margin-right: 0;
         
      }
-         ul {
-             margin: 0;
-             padding: 0;
-             list-style: none;
+ ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+     }
+.our-team-wrapper {
+    background-color: var(--footer-text-color);
+    
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 120px;
+    
          }
-         .our-team-wrapper {
-             background-color: var(--footer-text-color);
     
-             padding-top: 120px;
-             padding-bottom: 120px;
-             margin-bottom: 120px;
-    
-         }
-    
-         .team {
-             display: flex;
-             flex-wrap: wrap;
-             width: 1128px;
+    .team {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1128px;
          }
      
    
@@ -997,13 +968,7 @@ address{
      padding-left: 16px;
      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      margin-bottom: 16px;
-     
-
-     
-
-
-
- }
+     }
  
 
 
@@ -1172,14 +1137,8 @@ address{
         width: 264px;
         height: 40px;        
         padding-left: 16px;
-        
-
-
 
     }
-
-   
-
     .modal-form-subscribe-wrapper {
         display: flex;
         gap: 24px;
