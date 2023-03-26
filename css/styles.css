@@ -82,16 +82,14 @@ body{
 }
 @media screen and (min-width:768px){
     .container{
-    width: 766px;
+   
     
     }
 }
 
 @media screen and (min-width:1200px){
-    .container{
-    width: 1158px;
     
-    }
+    
 }
 
 
@@ -158,8 +156,8 @@ address{
     top:0;
     left: 0;
     background-color: var(--primary-bg-color);
-    padding-top: 80px;
-    padding-left: 40px;
+    padding-top: 6vh;
+    padding-left: 8vw;
     transform: translateX(100%);
     
       
@@ -173,9 +171,9 @@ address{
 
 
 
-.mobile-menu-container{
-    position: relative;
-    
+.mobile-menu-list{
+   
+    min-height: calc(100vh - 234px);
     
 }
 
@@ -213,11 +211,15 @@ address{
     text-transform: capitalize;
     color: var(--primary-bg-hero);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
   }
   .mobile-menu-link:hover,
   .mobile-menu-link:focus{
  
   color: var(--accent-color);
+
+  }
+  .mobile-menu-footer{
 
   }
 
@@ -227,10 +229,10 @@ address{
     font-size: 36px;
     line-height: 40px;  
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color: var(--hover-focus-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 284px;
+    
 
 }
 
@@ -242,7 +244,7 @@ address{
 }
 
 .mail{
-    font-weight: 500;
+    
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -297,6 +299,10 @@ address{
        
         
     }
+        .page-header {
+            padding-top: 18px;
+            padding-bottom: 18px;
+        }
     address{
         display: flex;
     }
@@ -372,6 +378,14 @@ address{
         
     }
 @media screen and (min-width:1200px){
+    .container{
+        max-width: 1158px;
+
+    }
+    .menu{
+        margin-left: 76px;
+    }
+
     .contacts{
         display: flex;
     }
@@ -387,9 +401,9 @@ address{
 .mail{
     margin-right: 40px;
 }
-.logo{
+/*.logo{
     margin-right: 76px;
-}
+}*/
 .mail:hover,
 .tel:hover{
     color: var(--hover-focus-color);
@@ -484,7 +498,7 @@ address{
 @media screen and (min-width:768px) {
     .hero {
         background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
-        margin-top: -10px;
+        margin-top: -3px;
         background-size: cover;
     }
          @media (min-device-pixel-ratio: 2),
@@ -502,6 +516,7 @@ address{
         padding-top: 188px;
         padding-bottom: 188px;
         margin-top: -3px;
+        max-width: 1440px;
             }
     .hero-title{
         margin-bottom: 48px;
@@ -568,6 +583,9 @@ address{
         
     }
 @media screen and (min-width:1200px){
+    .features{
+        width: 1128px;
+    }
     
     .features-card {
         width: 264px;
@@ -749,7 +767,11 @@ address{
     
 }
 @media screen and (min-width:1200px){
-    
+    .container:{
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .our-team-wrapper {              
     display: flex;
         flex-wrap: wrap;
@@ -760,12 +782,31 @@ address{
     margin-right: 0;
         
      }
-    .team {
-        justify-content: space-between;
-        column-gap: 0;
+         ul {
+             margin: 0;
+             padding: 0;
+             list-style: none;
+         }
+         .our-team-wrapper {
+             background-color: var(--footer-text-color);
+    
+             padding-top: 120px;
+             padding-bottom: 120px;
+             margin-bottom: 120px;
+    
          }
     
-}
+         .team {
+             display: flex;
+             flex-wrap: wrap;
+             width: 1128px;
+         }
+     
+   
+        
+         }
+    
+
 /*============================/OUR TEAM=====================*/
 /*=========================CUSTOMERS============================*/
 
@@ -947,7 +988,7 @@ address{
 
  .modal-form-subscribe-input {
 
-     border: 1px solid var(--primary-bg-color);
+     border: 1px solid #8D8D99;
      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
      border-radius: 4px;
      max-width: 398px;
@@ -1022,20 +1063,31 @@ address{
 
    
 .mobile-futer-first-row {
-    display: flex;   
+    display: flex;
+    
+      
 
+}
+.footer-container{
+    padding-left: 108px;
+}
+.footer-logo-block {
+    text-align: left;
+}
+.social-media-block{
+    margin: 0;
+    
 }
 
 .footer-first-column {
+    margin-left: 0;
     margin-right: 24px;
 }
 .modal-form-subscribe-wrapper {
     display: flex;
     gap: 24px;
 }
-.modal-form-subscribe{
-    padding-left: 80px;
-}
+
 .modal-form-subscribe-title{
     text-align: left;
 }
@@ -1051,37 +1103,87 @@ address{
 }
 
 @media screen and (min-width:1200px){
-.footer-first-column{
-    margin-left: 0;
-    margin-bottom: 0;
+.footer-section {
+        
+        padding-top: 100px;
+        padding-bottom: 100px;
 
-}
 
-.footer-section{
-    display: flex;
-}
-.social-media-block{
-    text-align: left;
-    margin: 0;
-}
-.footer-container {
-    display: flex;
+    }
 
-}
+    .footer-container {
+        display: flex;
 
-.footer-first-column {
-    margin-right: 120px;
-}
-.modal-form-subscribe {
-    margin-left: auto;
-    margin-right: 0;
-}
+    }
+
+    .footer-first-column {
+        margin-right: 120px;
+    }
+       
+
+    .social-list-footer {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .footer-first-column{
+        margin-bottom: 0;
+    }
+        .social-media-block{
+                margin-bottom: 0;
+            }
+
+   
+
+    .social-list-link-footer {
+        height: 40px;
+        width: 40px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+   
+    .modal-form-subscribe {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .social-title{
+        text-align: left;
+    }
+
+
+    .modal-form-subscribe-title {      
+      
+        margin-bottom: 16px;
+        
+    }
+
+    .modal-form-subscribe-input {
+       
+        width: 264px;
+        height: 40px;        
+        padding-left: 16px;
+        
+
+
+
+    }
+
+   
+
+    .modal-form-subscribe-wrapper {
+        display: flex;
+        gap: 24px;
+    }
 }
 /*Modal window*/
 .backdrop {
     position: fixed;
     z-index: 100;
-    top: -200px;
+    top: 0;
     width: 0;
     width: 100%;
     height: 100%;
@@ -1322,6 +1424,9 @@ address{
 
 .modal{
     width: 408px;
+}
+.backdrop {
+    top: 0;
 }
 }
 
