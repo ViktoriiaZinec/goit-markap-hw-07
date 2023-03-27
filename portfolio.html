@@ -30,26 +30,101 @@
           >
 
           <ul class="menu">
-            <li class="menu-item"><a class="menu-link" href="./index.html">Studio</a></li>
-            <li class="menu-item  current">
-              <a class="menu-link current-link" href="./portfolio.html">Portfolio</a>
+            <li class="menu-item current">
+              <a class="menu-link current-link" href="./index.html">Studio</a>
             </li>
-            <li class="mtnu-item"><a class="menu-link" href="">Contacts</a></li>
+            <li class="menu-item">
+              <a class="menu-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item"><a class="menu-link" href="">Contacts</a></li>
           </ul>
         </nav>
+
+        <button
+          type="button"
+          class="mobile-menu-open js-open-menu"
+          aria-label="Button for openning modal menu"
+        >
+          <svg class="mobile-menu-open-icon" width="32" height="22">
+            <use href="./images/sprite.svg#icon-pajamas_hamburger1"></use>
+          </svg>
+        </button>
+
         <!--Contacts-->
         <address>
           <ul class="contacts">
             <li>
-              <a class="mail" href="mailto:info@devstudio.com"
+              <a class="mail mail-tablet" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="tel tel-tablet" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
         </address>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn js-close-menu">
+          <svg class="mobile-menu-close-icon" width="8" height="8">
+            <use href="./images/sprite.svg#icon-close-black-18dp-2-11"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./index.html">Studio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Contacts</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu-footer">
+          <li class="mobile-menu-tel">
+            <a class="tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+          <li class="mobile-menu-mail">
+            <a class="mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="social-list-mobile">
+          <li>
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="16" height="16">
+                <use href="./images/sprite.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="16" height="16">
+                <use href="./images/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="16" height="16">
+                <use href="./images/sprite.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-list-link">
+              <svg class="social-list-icon" width="16" height="16">
+                <use href="./images/sprite.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -302,6 +377,7 @@
         </form>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
 
