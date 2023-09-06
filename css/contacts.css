@@ -1,0 +1,43 @@
+.company-address {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  justify-content: center;
+  margin: 72px 0;
+  align-items: center;
+}
+img {
+  width: 220px;
+  height: 120px;
+}
+.contacts-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.text-contacts {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.descr {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+}
+@media screen and (min-width: 768px) {
+  img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  img {
+    width: 440px;
+    height: 280px;
+  }
+}
