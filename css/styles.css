@@ -155,6 +155,9 @@ address {
 .mobile-menu.is-open {
   transform: translateX(0);
 }
+.container {
+  transition: all 0.3 ease-in-out;
+}
 .mobile-menu-list {
   min-height: calc(100vh - 234px);
 }
@@ -792,8 +795,3 @@ address {
 /*=========================FOOTER============================*/
 
 /*=========================FOOTER============================*/
-
-
-
-
-
